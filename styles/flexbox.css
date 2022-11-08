@@ -1,0 +1,20 @@
+
+.flexWrapper {
+  display: flex;
+}
+
+.box {
+  border: 1px solid red;
+  min-height: 50px;
+  width: 20%;
+}
+
+#nested {
+  display: flex;
+}
+
+img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
