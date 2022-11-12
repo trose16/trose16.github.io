@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "AlkalamiFont";
+    src: url("../Fonts/Alkalami/Alkalami-Regular.ttf");
+}
+
+.special_font {
+    font-family: 'Alkalami', serif;
+}
+
+.flexWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    border: 1px solid red;
+    margin: 20px;
+
+}
+
+#caption {
+    height: 50%;
+}
+
+.navList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 80px;
+}
+
+.navButton {
+    border: 5px solid black;
+
+}
+
+.navAnchor {
+    text-decoration: none;
+}

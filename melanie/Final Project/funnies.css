@@ -1,0 +1,30 @@
+body { background-color: lightgreen;}
+h1 {
+  font-size: 90px;
+  color: darkgreen;
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+}
+ 
+ 
+ /* nav */
+ ul {display: flex;
+  list-style-type: none;
+background-color: midnightblue; 
+}
+
+li a {display: block;
+  color: white;
+  padding: 20px 20px;}
+
+li {display: inline;}  
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: darkgreen;
+    
+  }    
