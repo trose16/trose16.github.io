@@ -1,0 +1,480 @@
+/* screen - desktop-1 */
+
+.desktop-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 5135px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.desktop-1 .header {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1446px;
+}
+
+.desktop-1 .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--tiber);
+  display: flex;
+  height: 82px;
+  min-width: 1440px;
+  padding: 13px 23px;
+}
+
+.desktop-1 .ellipse-2 {
+  align-self: center;
+  background-color: var(--sky-blue);
+  border: 1px none;
+  border-radius: 20.5px/20px;
+  height: 40px;
+  width: 41px;
+}
+
+.desktop-1 .app {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 60px;
+  min-height: 46px;
+  width: 82px;
+}
+
+.desktop-1 .reviews {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 43px;
+  min-height: 46px;
+  width: 130px;
+}
+
+.desktop-1 .place {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2px;
+  margin-left: 43px;
+  min-height: 42px;
+  width: 124px;
+}
+
+.desktop-1 .overlap-group {
+  align-items: flex-end;
+  align-self: center;
+  background-color: #2C666E;
+  border-radius: 7px;
+  display: flex;
+  height: 41px;
+  margin-left: 721px;
+  margin-top: 1.0px;
+  min-width: 133px;
+  padding: 3.5px 8.1px;
+}
+
+.desktop-1 .donate {
+  color: var(--tiber);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 32px;
+  text-align: center;
+  width: 117px;
+}
+
+.desktop-1 .overlap-group-container {
+  align-items: flex-start;
+  background-image: url(../img/hero@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  min-height: 1007px;
+  padding: 356px 44px;
+  width: 1440px;
+}
+
+.desktop-1 .overlap-group2 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-8@1x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  min-width: 629px;
+  padding: 4px 63px;
+}
+
+.desktop-1 .title {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 62px;
+  width: 487px;
+}
+
+.desktop-1 .overlap-group1 {
+  height: 72px;
+  position: relative;
+  width: 688px;
+}
+
+.desktop-1 .rectangle-8 {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 629px;
+}
+
+.desktop-1 .one-page-at-a-time {
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+  width: 638px;
+}
+
+.desktop-1 .overlap-group4 {
+  height: 2034px;
+  position: relative;
+  width: 1442px;
+}
+
+.desktop-1 .rectangle-10 {
+  background-color: var(--sky-blue);
+  border: 1px none;
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1438px;
+}
+
+.desktop-1 .bookshelf {
+  height: 1024px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 1010px;
+  width: 582px;
+}
+
+.desktop-1 .the-app-has-all-the {
+  color: var(--casal);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 94px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 438px;
+  width: 757px;
+}
+
+.desktop-1 .google-button {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 7px;
+  display: flex;
+  height: 77px;
+  left: 548px;
+  min-width: 254px;
+  padding: 0 23px;
+  position: absolute;
+  top: 789px;
+}
+
+.desktop-1 .image-4 {
+  height: 55px;
+  object-fit: cover;
+  width: 208px;
+}
+
+.desktop-1 .apple-button {
+  align-items: flex-end;
+  background-color: var(--black);
+  border-radius: 7px;
+  display: flex;
+  height: 77px;
+  left: 137px;
+  min-width: 254px;
+  padding: 5px 17px;
+  position: absolute;
+  top: 789px;
+}
+
+.desktop-1 .image-3 {
+  height: 66px;
+  object-fit: cover;
+  width: 208px;
+}
+
+.desktop-1 .wish-you-had-time-to-read-the-classics {
+  color: var(--casal);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 94px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 97px;
+  width: 847px;
+}
+
+.desktop-1 .rectangle-12 {
+  background-color: var(--tiber);
+  border: 1px none;
+  height: 1024px;
+  left: 482px;
+  position: absolute;
+  top: 1010px;
+  width: 960px;
+}
+
+.desktop-1 .ive-always-wanted-t {
+  left: 536px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1117px;
+  width: 851px;
+}
+
+.desktop-1 .name {
+  left: 536px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1746px;
+  width: 846px;
+}
+
+.desktop-1 .rectangle-15 {
+  background-color: #edebec;
+  border: 1px none;
+  height: 756px;
+  left: 974px;
+  position: absolute;
+  top: 113px;
+  width: 378px;
+}
+
+.desktop-1 .overlap-group-1 {
+  height: 70px;
+  left: 81px;
+  position: absolute;
+  top: 301px;
+  width: 615px;
+}
+
+.desktop-1 .rectangle-11 {
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 493px;
+}
+
+.desktop-1 .now-you-do {
+  left: 77px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+  width: 538px;
+}
+
+.desktop-1 .phone-mock-up {
+  align-items: flex-start;
+  background-image: url(../img/phone-mockup@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  left: 944px;
+  min-height: 887px;
+  padding: 39px 29px;
+  position: absolute;
+  top: 43px;
+  width: 438px;
+}
+
+.desktop-1 .image-5 {
+  align-self: flex-end;
+  height: 426px;
+  margin-right: 1px;
+  margin-top: 18px;
+  object-fit: cover;
+  width: 376px;
+}
+
+.desktop-1 .image-6 {
+  height: 365px;
+  width: 379px;
+}
+
+.desktop-1 .sara {
+  left: 1151px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1318px;
+}
+
+.desktop-1 .chantelle {
+  left: 1070px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1901px;
+}
+
+.desktop-1 .ive-loved-discoveri {
+  left: 539px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1470px;
+  width: 851px;
+}
+
+.desktop-1 .emily {
+  left: 1138px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1593px;
+}
+
+.desktop-1 .overlap-group6 {
+  height: 1024px;
+  margin-left: 3px;
+  position: relative;
+  width: 1437px;
+}
+
+.desktop-1 .feedback-pic {
+  height: 1024px;
+  left: 908px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 529px;
+}
+
+.desktop-1 .rectangle-13 {
+  background-color: var(--casal);
+  border: 1px none;
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 960px;
+}
+
+.desktop-1 .do-you-have-feedback-about-the-app {
+  left: 179px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 449px;
+}
+
+.desktop-1 .email-us-at-hellogutenbergcom {
+  left: 198px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 706px;
+}
+
+.desktop-1 .group-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 53px;
+  height: 102px;
+  left: 128px;
+  min-width: 702px;
+  padding: 0 2.5px;
+  position: absolute;
+  top: 227px;
+}
+
+.desktop-1 .icon-star {
+  height: 92px;
+  width: 97px;
+}
+
+.desktop-1 .overlap-group5 {
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop-1 .donate-pic {
+  height: 988px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 611px;
+}
+
+.desktop-1 .rectangle-14 {
+  background-color: var(--tiber);
+  border: 1px none;
+  height: 1024px;
+  left: 480px;
+  position: absolute;
+  top: 0;
+  width: 960px;
+}
+
+.desktop-1 .do-you-want-to-support-the-project {
+  left: 703px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 410px;
+}
+
+.desktop-1 .donate-through-venmo-gutenberg {
+  color: transparent;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 656px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 667px;
+}
+
+.desktop-1 .c-2022-gutenberg {
+  color: var(--casal);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  left: 670px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 933px;
+}
+
+.desktop-1 .venmo_-logo_-blue-1 {
+  height: 47px;
+  left: 849px;
+  object-fit: cover;
+  position: absolute;
+  top: 243px;
+  width: 248px;
+}
