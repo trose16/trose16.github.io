@@ -1,0 +1,891 @@
+/* START: Animation_Text */
+.animate-character {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 40px;
+    padding-left: 80px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+#image_circle {
+    padding: 30px;
+    float: left;
+}
+/* END: Animation_Text */
+
+
+
+
+
+/* START: Contact_Form */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #D4AF37;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #E6BE8A;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#contact_form {
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+}
+/* END: Contact_Form */
+
+
+
+
+
+/* START: Containers FOR TEXTS */
+
+/* END: Containers FOR TEXTS */
+
+
+
+
+
+/* START: Flex-Container */
+.flex-container {
+    display: flex;
+    height: 200px;
+    background-color: bisque;
+    align-items: baseline;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container-time {
+    display: flex;
+    height: 200px;
+    background-color: bisque;
+    align-items: baseline;
+}
+
+.flex-container-time>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: right;
+    line-height: 75px;
+    font-size: 30px;
+}
+/* END: Flex-Container */
+
+
+
+/* START: Header.css */
+p {
+    margin: 0;
+}
+
+.header-container {
+    border: 1px solid #999;
+    height: 200px;
+    width: 300px;
+}
+
+.header-header {
+    text-align: center;
+    height: 50px;
+    background: #81CCD3;
+}
+
+.header-header p {
+    margin: 0;
+}
+/* END: Header.css */
+
+
+
+
+/* START: Layout.css */
+.container_circle {
+    width: 500px;
+    height: 200px;
+    margin: 0px;
+    /* background: url("images/image_test.jpg"); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    /* it was auto b4 i want to put to the left */
+    margin-right: auto;
+}
+
+.circle_orange {
+    width: 20%;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FF8C00 0%, #FF8C00 100%);
+    box-shadow: inset -8px -7px 4px 0px rgba(0, 0, 0, 0.3);
+    line-height: 0;
+    position: relative;
+}
+
+/* Match the height */
+.circle_orange:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.circle-text {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+
+    /* (E2) THE FONT - NOT REALLY IMPORTANT */
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.circle_red {
+    width: 20%;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #902727 0%, #ed0a0a 100%);
+    box-shadow: inset -8px -7px 4px 0px rgba(0, 0, 0, 0.3);
+    line-height: 0;
+    position: relative;
+}
+
+/* Match the height */
+.circle_red:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.circle_old_gold {
+    width: 20%;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #CFB53B 0%, #e2ca60 100%);
+    box-shadow: inset -8px -7px 4px 0px rgba(0, 0, 0, 0.3);
+    line-height: 0;
+    position: relative;
+}
+
+/* Match the height */
+.circle_old_gold:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.multiline {
+    white-space: pre-wrap;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+}
+
+/*.thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    /* to make it oval
+    border-radius: 50%;
+}*/
+
+/* .thick-black-border {
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+} */
+
+.thick-box {
+    position: relative;
+    box-sizing: border-box;
+    background-image: url("images/gold3.jpg");
+    height: 250px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.body_container {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* .image-bottom {
+    background: center bottom / auto auto no-repeat;
+    height: 20px;
+    width: auto;
+    padding: 50px 0;
+    box-sizing: border-box;
+} */
+
+/* .background-bottom { */
+/* background-image: url("images/image_test.jpg"); */
+/* background-repeat: no-repeat;
+    background-attachment: fixed; */
+/* background-size: 100% 100%; */
+/* } */
+
+.picture {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.picture:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.container_pictures {
+    column-count: auto;
+    column-gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url("images/gold3.jpg");
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 30px black;
+
+}
+
+/*
+.swiper-slide {
+    max-width: 100%;
+    height: auto;
+} */
+/* END: Layout.css */
+
+
+
+/* START: navigation.css */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-image: url("images/gold3.jpg");
+    /*in case the pic fails to load */
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* aligning vertically to the center */
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background-image: url("images/image_test.jpg");
+    to make the navigation bar animate but I ended up giving up on it
+    animation-duration: 4s;
+    animation-name: navbar; */
+
+}
+
+/* to make the navigation bar animate but I ended up giving up on it
+@keyframes navbar {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+@keyframes navbar {
+    from {
+        background-color: yellow;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+*/
+
+.nav-list {
+    list-style-type: none;
+    /* to remove the bullet points */
+    display: inline-block;
+
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    align-items: flex-end;
+    /* to be placed side by side */
+    padding: 20px 10px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    /* to remove the underline */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #8B4513;
+}
+
+/* Right-aligned section inside the top navigation */
+.navbar-right {
+    display: inline-block;
+    position: relative;
+}
+
+.logo {
+    height: 100px;
+    width: 130px;
+    padding-top: 5px;
+    opacity: 0.6;
+}
+/* END: navigation.css */
+
+
+
+
+
+/* START: Skill_Circle.css */
+.res-circle {
+    width: 10%;
+    border-radius: 50%;
+    background: orange;
+    line-height: 0;
+    position: relative;
+}
+
+/* (B) USE ::AFTER TO CREATE MATCHING HEIGHT */
+/* Credits - https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
+.res-circle::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+/* (E) TEXT BLOCK */
+.circle-txt {
+    /* (E1) CENTER TEXT IN CIRCLE */
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+
+    /* (E2) THE FONT - NOT REALLY IMPORTANT */
+    font-family: arial, sans-serif;
+    font-weight: bold;
+}
+
+.hideway-skills {
+
+    width: auto;
+    top: auto;
+    position: absolute;
+    left: auto;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animate 5s linear forwards;
+}
+
+.hideway-skills p {
+    color: orange;
+}
+
+@keyframes animate {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+
+    30% {
+        width: auto;
+        height: 0px;
+    }
+
+    60% {
+        width: auto;
+        height: 80px;
+    }
+}
+/* END: Skill_Circle.css */
+
+
+
+
+/* START: styles.css */
+.H1-style {
+    color: orangered;
+    line-height: 30px;
+    text-align: center;
+}
+
+.H2-style {
+    color: blueviolet;
+    line-height: 30px;
+}
+
+.H3-style {
+    color: red;
+    line-height: 30px;
+}
+
+.header-style {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    color: black;
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+
+}
+
+#home-button {
+    height: 50px;
+    width: 100px;
+    background-color: palevioletred;
+    font-size: 16px;
+}
+/* END: styles.css */
+
+
+
+
+/* START: Stylestest.css */
+body {
+    margin: 5;
+    /*background: white;*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    background-image: url("images/gold.jpg");
+}
+
+/* section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("images/gold3.jpg"); */
+/* overflow: hidden;
+}
+
+section::before {
+    /* content: 'Responsive';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50vh;
+    font-size: 15vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+    color: transparent;
+} */
+
+@font-face {
+    font-family: "SouthTown";
+    src: url("Font/south_town/SouthTown.otf");
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 8px solid #996515;
+    /* padding: 10px;
+    padding-top: -10px; */
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 10px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    text-shadow: 1px 1px 3px #000;
+    font-size: 70px;
+    padding: 0px;
+    position: relative;
+    /*This animation here is still ot working properly */
+    animation: typewriter 5s steps(7) infinite, blinking-cursor 0.8s infinite;
+}
+
+.about_me {
+    padding-left: 100px;
+    padding-bottom: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+.H1-style {
+    color: #000000;
+    text-shadow: 1px 1px 3px orangered;
+    font-size: 60px;
+    font-family: cursive;
+    color: orangered;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 16px;
+    position: relative;
+}
+
+.H2-style {
+    color: blueviolet;
+    line-height: 30px;
+    padding-left: 16px;
+    position: relative;
+}
+
+.H3-style {
+    color: red;
+    line-height: 30px;
+    padding-left: 16px;
+    position: relative;
+}
+
+.p-style {
+    color: black;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.links {
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: bold;
+    position: relative;
+
+}
+
+/* Trying to set the background image with opacity */
+/* .bck_image {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bck_image_bg {
+    /* background-image: url("/images/image_test.jpg"); */
+/* position: absolute;
+    height: 40vh;
+    width: auto;
+    /* min-height: 10em; */
+/* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.4; */
+/* background-size: cover;
+
+    top: 175px;
+
+    background-position: center top;
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+    width: auto;
+}*/
+
+.text-content {
+    position: relative;
+}
+
+.homepage-skills {
+    font-size: 85px;
+    position: relative;
+    text-align: center;
+    font-family: SouthTown;
+}
+
+.homepage-quote {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+}
+
+@keyframes typewriter {
+    0% {
+        width: 0
+    }
+
+    25% {
+        width: 70%
+    }
+
+    48% {
+        width: 100%
+    }
+
+    50% {
+        width: 100%
+    }
+
+    55% {
+        width: 100%
+    }
+
+    75% {
+        width: 70%;
+    }
+
+    85% {
+        width: 30%;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blinking-cursor {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: #f9d566
+    }
+}
+
+/*
+.slider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10;
+}
+
+.slider img {
+    max-width: 150px;
+    position: absolute;
+    bottom: 0;
+    max-height: 100%;
+}
+
+.slider::before {
+    content: '';
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+    width: 100%;
+    height: 220px;
+    /* border-bottom: 120px solid #c9b51d;
+    /* background: #eedb0a;
+    box-sizing: border-box;
+ }  */
+
+.swiper {
+    width: 75%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 40%;
+    height: auto;
+    background-position: center;
+    justify-content: center;
+}
+
+#pic-landscape1 {
+    height: 800px;
+    width: 1200px;
+}
+
+#pic-landscape2 {
+    height: 800px;
+    width: 1200px;
+}
+
+#pic-landscape3 {
+    height: 800px;
+    width: 1200px;
+}
+
+#pic-landscape4 {
+    height: 800px;
+    width: 1200px;
+}
+
+#pic-landscape5 {
+    height: 800px;
+    width: 1000px;
+}
+
+#pic-landscape6 {
+    height: 800px;
+    width: 1200px;
+}
+
+#pic-landscape7 {
+    height: 700px;
+    width: 900px;
+}
+
+
+/* .swiper-container-3d .swiper-slide-shadow-left {
+    background-image: none;
+}
+
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image: none;
+} */
+
+.icon-section {
+    width: 80%;
+    height: auto;
+    /*margin: 20% 0 0 10%;*/
+    text-align: center;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    /*margin: 25px;*/
+}
+
+.inner-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25%;
+}
+
+.icon-wrapper:hover .inner-wrapper {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 25%;
+}
+
+.front {
+    background-color: white;
+    color: white;
+}
+
+.back {
+    background-color: goldenrod;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.fa {
+    margin-top: 35px;
+}
+
+.p-icon {
+    margin-top: 50px;
+    font-family: cursive;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+/* END: Stylestest.css */
