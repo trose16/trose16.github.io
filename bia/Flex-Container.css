@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    height: 200px;
+    background-color: bisque;
+    align-items: baseline;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container-time {
+    display: flex;
+    height: 200px;
+    background-color: bisque;
+    align-items: baseline;
+}
+
+.flex-container-time>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: right;
+    line-height: 75px;
+    font-size: 30px;
+}

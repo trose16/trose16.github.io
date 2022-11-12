@@ -1,0 +1,60 @@
+.res-circle {
+    width: 10%;
+    border-radius: 50%;
+    background: orange;
+    line-height: 0;
+    position: relative;
+}
+
+/* (B) USE ::AFTER TO CREATE MATCHING HEIGHT */
+/* Credits - https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
+.res-circle::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+/* (E) TEXT BLOCK */
+.circle-txt {
+    /* (E1) CENTER TEXT IN CIRCLE */
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+
+    /* (E2) THE FONT - NOT REALLY IMPORTANT */
+    font-family: arial, sans-serif;
+    font-weight: bold;
+}
+
+.hideway-skills {
+
+    width: auto;
+    top: auto;
+    position: absolute;
+    left: auto;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animate 5s linear forwards;
+}
+
+.hideway-skills p {
+    color: orange;
+}
+
+@keyframes animate {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+
+    30% {
+        width: auto;
+        height: 0px;
+    }
+
+    60% {
+        width: auto;
+        height: 80px;
+    }
+}

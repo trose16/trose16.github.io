@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Meta information for our website. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me Form </title>
+    <link rel="stylesheet" href="Contact_Form.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="Layout.css">
+    <link rel="stylesheet" href="Stylestest.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
+</head>
+
+<body background="images/bck_image2.png">
+
+    <nav class="navbar">
+        <div style="position:absolute; left:8px">
+            <img class="logo" src="images/Logo_Design.png" alt="Plenty of Bytes">
+        </div>
+
+        <div id="navbar-right">
+            <ul class="nav-list">
+
+                <li class="list-item"><a href="HomePage.html"> Home |</a></li>
+                <li class="list-item"><a href="https://github.com/BiaBischoff" target="_blank"> My Work |</a></li>
+                <li class="list-item"><a href="https://www.linkedin.com/in/bianca-bischoff-msc-06b894213/"
+                        target="_blank">
+                        Let's Connect |</a></li>
+                <li class="list-item"><a href="About Me.html" target="_blank"> About Me |</a></li>
+                <li class="list-item"><a href="Contact Me.html" target="_blank"> Contact | </a></li>
+            </ul>
+        </div>
+    </nav><br><br><br><br>
+
+    <!-- Contact Form on the home page  -->
+    <h3 id="contact_form">Contact Form</h3><br>
+
+    <div class="container">
+
+        <form action="/action_page.php">
+            <label for="fname">First and Last Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+    <br><br>
+
+    <center>
+        <p style="font-size:30px;">Check out my social and professional media channels and let's
+            connect!!</p>
+        <br>
+
+        <!-- Widgets to my social media profiles -->
+
+        <div class="icon-section">
+            <a href="https://www.instagram.com/flowroll_gb/" class="icon-wrapper" target="blank">
+                <div class="inner-wrapper">
+                    <div class="front">
+                        <i class="fa fa-instagram fa-5x" style="font-size:80px; color: goldenrod"
+                            aria-hidden="true"></i>
+                    </div>
+                    <div class="back">
+                        <p class="p-icon">Instagram</p>
+
+                    </div>
+                </div>
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/bianca-bischoff-msc-06b894213/" class="icon-wrapper" target="blank">
+                <div class="inner-wrapper">
+                    <div class="front">
+                        <i class="fa fa-linkedin-square fa-5x" style="font-size:80px; color: goldenrod"
+                            aria-hidden="true"></i>
+                    </div>
+                    <div class="back">
+                        <p class="p-icon">LinkedIn</p>
+
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </center>
+
+    <br><br>
+</body>
+
+</html>

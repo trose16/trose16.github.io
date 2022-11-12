@@ -1,0 +1,365 @@
+body {
+    margin: 5;
+    /*background: white;*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    background-image: url("images/gold.jpg");
+}
+
+/* section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("images/gold3.jpg"); */
+/* overflow: hidden;
+}
+
+section::before {
+    /* content: 'Responsive'; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50vh;
+    font-size: 15vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+    color: transparent;
+} */
+
+@font-face {
+    font-family: "SouthTown";
+    src: url("Font/south_town/SouthTown.otf");
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 8px solid #996515;
+    /* padding: 10px;
+    padding-top: -10px; */
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 10px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    text-shadow: 1px 1px 3px #000;
+    font-size: 70px;
+    padding: 0px;
+    position: relative;
+    /*This animation here is still ot working properly */
+    animation: typewriter 5s steps(7) infinite, blinking-cursor 0.8s infinite;
+}
+
+.about_me {
+    padding-left: 100px;
+    padding-bottom: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+.H1-style {
+    color: #000000;
+    text-shadow: 1px 1px 3px orangered;
+    font-size: 60px;
+    font-family: cursive;
+    color: orangered;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 16px;
+    position: relative;
+}
+
+.H2-style {
+    color: blueviolet;
+    line-height: 30px;
+    padding-left: 16px;
+    position: relative;
+}
+
+.H3-style {
+    color: red;
+    line-height: 30px;
+    padding-left: 16px;
+    position: relative;
+}
+
+.p-style {
+    color: black;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.links {
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: bold;
+    position: relative;
+
+}
+
+/* Trying to set the background image with opacity */
+/* .bck_image {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bck_image_bg {
+    /* background-image: url("/images/image_test.jpg"); */
+/* position: absolute;
+    height: 40vh;
+    width: auto;
+    /* min-height: 10em; */
+/* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.4; */
+/* background-size: cover;
+   
+    top: 175px;
+    
+    background-position: center top;
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+    width: auto; 
+}*/
+
+.text-content {
+    position: relative;
+}
+
+.homepage-skills {
+    font-size: 85px;
+    position: relative;
+    text-align: center;
+    font-family: SouthTown;
+}
+
+.homepage-quote {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+}
+
+@keyframes typewriter {
+    0% {
+        width: 0
+    }
+
+    25% {
+        width: 70%
+    }
+
+    48% {
+        width: 100%
+    }
+
+    50% {
+        width: 100%
+    }
+
+    55% {
+        width: 100%
+    }
+
+    75% {
+        width: 70%;
+    }
+
+    85% {
+        width: 30%;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blinking-cursor {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: #f9d566
+    }
+}
+
+/* 
+.slider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10;
+}
+
+.slider img {
+    max-width: 150px;
+    position: absolute;
+    bottom: 0;
+    max-height: 100%;
+}
+
+.slider::before {
+    content: '';
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+    width: 100%;
+    height: 220px;
+    /* border-bottom: 120px solid #c9b51d;
+    /* background: #eedb0a; 
+    box-sizing: border-box;
+ }  */
+
+.swiper {
+    width: 75%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 40%;
+    height: auto;
+    background-position: center;
+    justify-content: center;
+}
+
+#pic-landscape1 {
+    height: 800px;
+    width: 1200px;
+}
+
+#pic-landscape2 {
+    height: 800px;
+    width: 1200px;
+}
+
+#pic-landscape3 {
+    height: 800px;
+    width: 1200px;
+}
+
+#pic-landscape4 {
+    height: 800px;
+    width: 1200px;
+}
+
+#pic-landscape5 {
+    height: 800px;
+    width: 1000px;
+}
+
+#pic-landscape6 {
+    height: 800px;
+    width: 1200px;
+}
+
+#pic-landscape7 {
+    height: 700px;
+    width: 900px;
+}
+
+
+/* .swiper-container-3d .swiper-slide-shadow-left {
+    background-image: none;
+}
+
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image: none;
+} */
+
+.icon-section {
+    width: 80%;
+    height: auto;
+    /*margin: 20% 0 0 10%;*/
+    text-align: center;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    /*margin: 25px;*/
+}
+
+.inner-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25%;
+}
+
+.icon-wrapper:hover .inner-wrapper {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 25%;
+}
+
+.front {
+    background-color: white;
+    color: white;
+}
+
+.back {
+    background-color: goldenrod;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.fa {
+    margin-top: 35px;
+}
+
+.p-icon {
+    margin-top: 50px;
+    font-family: cursive;
+    font-size: 1.5vw;
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+.H1-style {
+    color: orangered;
+    line-height: 30px;
+    text-align: center;
+}
+
+.H2-style {
+    color: blueviolet;
+    line-height: 30px;
+}
+
+.H3-style {
+    color: red;
+    line-height: 30px;
+}
+
+.header-style {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    color: black;
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+
+}
+
+#home-button {
+    height: 50px;
+    width: 100px;
+    background-color: palevioletred;
+    font-size: 16px;
+}
