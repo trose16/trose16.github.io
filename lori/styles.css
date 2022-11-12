@@ -1,0 +1,86 @@
+body {
+    background-image: url(./thechosen.JPG);
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.galleryWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    align-items: center;
+    padding-left: 130px;
+
+
+}
+
+.galleryWrap img {
+    width: 350px;
+    height: 175px;
+    object-fit: contain;
+}
+
+.galleryCard {
+
+    margin: 10px;
+}
+
+
+
+.pageWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#topNav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: fixed;
+    margin: 0;
+    z-index: 2000;
+
+
+    width: 93%;
+    background: white;
+    padding: 20px;
+
+    text-align: center;
+}
+
+.box {}
+
+.horse {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+
+.gallery img {
+    height: 75%;
+    max-width: 300px
+}
+
+.navWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.section1 img {
+    width: 700px;
+    height: 100%;
+}
