@@ -1,0 +1,175 @@
+body {
+    background-color: darkgrey;
+    background-image: url("../Images/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    border: 1px;
+}
+
+.pageWrap {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'EB Garamond';
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: 'EB Garamond';
+    font-size: medium;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.nav-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.nav-parent li {
+    list-style-type: none;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'EB Garamond';
+}
+
+.nav-parent a {
+    text-decoration: none;
+}
+
+.nav-home :active {
+    font-size: large;
+    font-style: bold;
+    color: aqua;
+}
+
+a.nav-guestspeakers :active {
+    font-size: large;
+    font-style: bold;
+    color: aqua;
+}
+
+a.nav-knowledge :active {
+    font-size: large;
+    font-style: bold;
+    color: aqua;
+}
+
+a.nav-ourclass :active {
+    font-size: large;
+    font-style: bold;
+    color: aqua;
+}
+
+a.nav-apply :active {
+    font-size: large;
+    font-style: bold;
+    color: aqua;
+}
+
+
+.lehi-banner img {
+    width: 100%;
+}
+
+.lehi-footer {
+    text-align: center;
+}
+
+.lehi-footer img {
+    width: 20%;
+    height: 20%;
+}
+
+.image-grid1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.image-grid1 img {
+    width: 350px;
+    height: 274px;
+}
+
+.image-grid2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.image-grid2 img {
+    width: 350px;
+    height: 274px;
+}
+
+.techmom-logo {
+    text-align: center;
+}
+
+.techmom-logo img {
+    width: 25%;
+}
+
+.table-wrapper {
+    text-align: center;
+}
+
+.table-wrapper img {
+    width: 80%;
+}
+
+.class-container {
+    align-items: center;
+    display: flex;
+}
+
+.class-left img {
+    width: 600px;
+    height: 600px;
+}
+
+.slack-logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.class-right img {
+    width: 600px;
+    height: 600px;
+}
+
+
+
+
+
+
+
+.alway-banner img {
+    width: 100%;
+}
+
+.apply-button {
+    text-align: center;
+}
+
+.apply-button img {
+    width: 20%
+}
